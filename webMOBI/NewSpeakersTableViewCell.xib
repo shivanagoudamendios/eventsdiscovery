@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewSpeakersTableViewCell" rowHeight="85" id="KGk-i7-Jjw" customClass="NewSpeakersTableViewCell" customModule="FractalCAB" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zL-qb-dAX">
+                        <rect key="frame" x="95" y="9" width="215" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="QdU-Qk-3uy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4I-FU-ngf">
+                        <rect key="frame" x="95" y="36" width="215" height="42"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmptyUser.png" translatesAutoresizingMaskIntoConstraints="NO" id="r1K-aH-9My">
+                        <rect key="frame" x="8" y="7" width="70" height="70"/>
+                        <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="6ED-vy-nGJ"/>
+                            <constraint firstAttribute="width" constant="70" id="mJW-3J-lGw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxy-Nv-abb">
+                        <rect key="frame" x="86" y="9" width="1" height="68"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Kq5-2s-Yed"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r1K-aH-9My" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0bY-hc-DJr"/>
+                    <constraint firstItem="r1K-aH-9My" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-1" id="4Au-xp-rOt"/>
+                    <constraint firstItem="1zL-qb-dAX" firstAttribute="leading" secondItem="u4I-FU-ngf" secondAttribute="leading" id="9FL-MA-pOG"/>
+                    <constraint firstItem="1zL-qb-dAX" firstAttribute="trailing" secondItem="u4I-FU-ngf" secondAttribute="trailing" id="Ovj-1p-5s0"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="u4I-FU-ngf" secondAttribute="bottom" constant="-2" id="QJg-is-3Zq"/>
+                    <constraint firstItem="1zL-qb-dAX" firstAttribute="leading" secondItem="uxy-Nv-abb" secondAttribute="trailing" constant="8" symbolic="YES" id="RVe-lq-ARh"/>
+                    <constraint firstItem="uxy-Nv-abb" firstAttribute="top" secondItem="1zL-qb-dAX" secondAttribute="top" id="THW-NQ-6Rz"/>
+                    <constraint firstItem="uxy-Nv-abb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="1" id="Wpq-DA-vQG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1zL-qb-dAX" secondAttribute="trailing" constant="2" id="Xeh-at-rnQ"/>
+                    <constraint firstItem="r1K-aH-9My" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="jyL-Cb-Uc9"/>
+                    <constraint firstItem="uxy-Nv-abb" firstAttribute="leading" secondItem="r1K-aH-9My" secondAttribute="trailing" constant="8" symbolic="YES" id="kZI-54-2iA"/>
+                    <constraint firstItem="u4I-FU-ngf" firstAttribute="top" secondItem="1zL-qb-dAX" secondAttribute="bottom" constant="6" id="t5f-iO-HgS"/>
+                    <constraint firstItem="r1K-aH-9My" firstAttribute="bottom" secondItem="uxy-Nv-abb" secondAttribute="bottom" id="tpb-7i-HuN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="speckerDescLabel" destination="u4I-FU-ngf" id="ZNp-jq-gpd"/>
+                <outlet property="speckerImageView" destination="r1K-aH-9My" id="bdk-0W-5qy"/>
+                <outlet property="speckerNameLabel" destination="1zL-qb-dAX" id="k2v-M8-MhG"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="122.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="EmptyUser.png" width="192" height="240"/>
+    </resources>
+</document>

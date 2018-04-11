@@ -1,0 +1,6 @@
+framework module Pods_webMOBIUITests {
+  umbrella header "Pods-webMOBIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

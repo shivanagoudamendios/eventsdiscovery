@@ -1,0 +1,78 @@
+
+App Thinning Size Report for All Variants of webMOBI
+
+Variant: webMOBI-iPad (4th generation)-etc.ipa
+Supported devices: iPad (3rd generation) and iPad (4th generation)
+App + On Demand Resources size: 13.3 MB compressed, 30.2 MB uncompressed
+App size: 13.3 MB compressed, 30.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPad 2-etc.ipa
+Supported devices: iPad 2 and iPad mini
+App + On Demand Resources size: 13.3 MB compressed, 30.1 MB uncompressed
+App size: 13.3 MB compressed, 30.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPad Air 2-etc.ipa
+Supported devices: iPad (5th generation), iPad (6th generation), iPad Air, iPad Air 2, iPad Pro (12.9-inch), iPad mini 2, iPad mini 3, and iPad mini 4
+App + On Demand Resources size: 12.7 MB compressed, 29.8 MB uncompressed
+App size: 12.7 MB compressed, 29.8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPad Pro (9.7-inch)-etc.ipa
+Supported devices: iPad Pro (10.5-inch), iPad Pro (12.9-inch) (2nd generation), and iPad Pro (9.7-inch)
+App + On Demand Resources size: 12.7 MB compressed, 29.8 MB uncompressed
+App size: 12.7 MB compressed, 29.8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPhone 5-etc.ipa
+Supported devices: iPhone 5 and iPhone 5c
+App + On Demand Resources size: 13.3 MB compressed, 30.1 MB uncompressed
+App size: 13.3 MB compressed, 30.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPhone 6s Plus-etc.ipa
+Supported devices: iPhone 6 Plus and iPhone 6s Plus
+App + On Demand Resources size: 12.8 MB compressed, 29.8 MB uncompressed
+App size: 12.8 MB compressed, 29.8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPhone 7 Plus-etc.ipa
+Supported devices: iPhone 7 Plus, iPhone 8 Plus, and iPhone X
+App + On Demand Resources size: 12.8 MB compressed, 29.8 MB uncompressed
+App size: 12.8 MB compressed, 29.8 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPhone 8-etc.ipa
+Supported devices: iPhone 7 and iPhone 8
+App + On Demand Resources size: 12.7 MB compressed, 29.7 MB uncompressed
+App size: 12.7 MB compressed, 29.7 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPhone SE-etc.ipa
+Supported devices: iPhone 5s, iPhone 6, iPhone 6s, iPhone SE, and iPod touch (6th generation)
+App + On Demand Resources size: 12.7 MB compressed, 29.7 MB uncompressed
+App size: 12.7 MB compressed, 29.7 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI-iPod touch-etc.ipa
+Supported devices: iPhone 4S and iPod touch
+App + On Demand Resources size: 13.3 MB compressed, 30.1 MB uncompressed
+App size: 13.3 MB compressed, 30.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: webMOBI.ipa
+Supported devices: Universal
+App + On Demand Resources size: 25.4 MB compressed, 70.2 MB uncompressed
+App size: 25.4 MB compressed, 70.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

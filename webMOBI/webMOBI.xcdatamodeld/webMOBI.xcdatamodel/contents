@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1421" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AgendaNotes" representedClassName="AgendaNotes" syncable="YES" codeGenerationType="class">
+        <attribute name="lastUpdated" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesDidAdd" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="AgendaRatings" representedClassName="AgendaRatings" syncable="YES" codeGenerationType="class">
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rating_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DownloadedEvents" representedClassName="DownloadedEvents" syncable="YES" codeGenerationType="class">
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isfirstlogin" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExhibitorFavorites" representedClassName="ExhibitorFavorites" syncable="YES" codeGenerationType="class">
+        <attribute name="eventid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExhibitorsNotes" representedClassName="ExhibitorsNotes" syncable="YES" codeGenerationType="class">
+        <attribute name="lastUpdated" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesDidAdd" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FavoriteEvents" representedClassName="FavoriteEvents" syncable="YES" codeGenerationType="class">
+        <attribute name="accesstype" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="app_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="end_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entry_fee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_privacy" optional="YES" attributeType="Integer 64" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="start_date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="users" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="users_length" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="venue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LoginDataFromAppID" representedClassName="LoginDataFromAppID" syncable="YES" codeGenerationType="class">
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="ScheduleFavorites" representedClassName="ScheduleFavorites" syncable="YES" codeGenerationType="class">
+        <attribute name="eventid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SpeakersRatings" representedClassName="SpeakersRatings" syncable="YES" codeGenerationType="class">
+        <attribute name="appid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rating_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SponsorsFavorites" representedClassName="SponsorsFavorites" syncable="YES" codeGenerationType="class">
+        <attribute name="eventid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SponsorsNotes" representedClassName="SponsorsNotes" syncable="YES" codeGenerationType="class">
+        <attribute name="lastUpdated" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesContent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesDidAdd" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notesID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notesType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AgendaNotes" positionX="18" positionY="171" width="128" height="135"/>
+        <element name="AgendaRatings" positionX="-45" positionY="135" width="128" height="135"/>
+        <element name="DownloadedEvents" positionX="-9" positionY="135" width="128" height="90"/>
+        <element name="ExhibitorsNotes" positionX="-36" positionY="144" width="128" height="135"/>
+        <element name="FavoriteEvents" positionX="-45" positionY="0" width="128" height="315"/>
+        <element name="LoginDataFromAppID" positionX="0" positionY="144" width="128" height="75"/>
+        <element name="SpeakersRatings" positionX="-18" positionY="153" width="128" height="135"/>
+        <element name="SponsorsNotes" positionX="0" positionY="162" width="128" height="135"/>
+        <element name="ExhibitorFavorites" positionX="-9" positionY="135" width="128" height="75"/>
+        <element name="SponsorsFavorites" positionX="0" positionY="144" width="128" height="75"/>
+        <element name="ScheduleFavorites" positionX="9" positionY="153" width="128" height="75"/>
+    </elements>
+</model>

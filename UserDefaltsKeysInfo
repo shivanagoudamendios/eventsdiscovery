@@ -1,0 +1,2 @@
+Stores the login response --> "userlogindata"
+Stores the Device Token for notification --> "devicetoken"

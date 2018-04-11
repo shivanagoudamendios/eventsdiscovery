@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="17B48" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeTabViewController2" customModule="webMOBI" customModuleProvider="target">
+            <connections>
+                <outlet property="eventstableview" destination="wJl-E7-6z7" id="ksq-2v-ewz"/>
+                <outlet property="filterButton" destination="xOQ-Ud-yU4" id="Iel-0T-RXU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="top" bounces="NO" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wJl-E7-6z7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="615"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="YKz-eO-D5I"/>
+                        <outlet property="delegate" destination="-1" id="UbU-ZO-0Q2"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOQ-Ud-yU4">
+                    <rect key="frame" x="132" y="580" width="111" height="35"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="XCB-gs-qmg"/>
+                        <constraint firstAttribute="width" constant="111" id="tXW-uP-yTf"/>
+                    </constraints>
+                    <state key="normal" title="FILTER">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="filterButtonAction:" destination="-1" eventType="touchUpInside" id="Egb-Q1-cWl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xOQ-Ud-yU4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2Qm-cR-TUn"/>
+                <constraint firstItem="wJl-E7-6z7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tvu-p2-Nq3"/>
+                <constraint firstAttribute="trailing" secondItem="wJl-E7-6z7" secondAttribute="trailing" id="j2t-Xp-Z5G"/>
+                <constraint firstAttribute="bottom" secondItem="xOQ-Ud-yU4" secondAttribute="bottom" constant="52" id="szh-jZ-QsY"/>
+                <constraint firstAttribute="bottom" secondItem="wJl-E7-6z7" secondAttribute="bottom" constant="52" id="tHF-jK-Wg1"/>
+                <constraint firstItem="wJl-E7-6z7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uue-X1-SOV"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <point key="canvasLocation" x="26.5" y="67.5"/>
+        </view>
+    </objects>
+</document>

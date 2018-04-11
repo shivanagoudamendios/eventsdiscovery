@@ -1,0 +1,6 @@
+framework module Pods_webMOBI {
+  umbrella header "Pods-webMOBI-umbrella.h"
+
+  export *
+  module * { export * }
+}
